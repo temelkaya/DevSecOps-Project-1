@@ -45,7 +45,7 @@ Type should be Custom TCP
 
 Port range I gave 22 for SSH
 
-In Source section I used my local public IP (to get my local IP I went to www.whatos,myip.com or I can get it from my terminal. Just by typing ip config or you can get it from your vpc)
+In Source section I used my local public IP (to get my local IP I went to www.whatismyip.com or I can get it from my terminal. Just by typing ip config or you can get it from your vpc)
 
 So I put my IP address and at the end of it I put /32 which means only single IP I explicitly defined outbound rules for NACL public1
 
@@ -197,7 +197,7 @@ Greater/Equal
 And defined the threshold value by 1
 And click next
 Then in Create a new topic window I typed – Whenever-reject-traffic-happens
-Email endpoints that will receive the notification – type – info@orchsky.com
+Email endpoints that will receive the notification – type – temelkaya@hotmail.com
 Then I click on Create topic
 In or der it to work, I have to go to my email and confirm it.
 Then in CloudWatch – Alarms – Create alarm section – I give a name to Alarm.
